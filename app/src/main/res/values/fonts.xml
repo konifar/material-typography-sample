@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- roboto -->
+    <string name="font_roboto_light">fonts/Roboto-Light.ttf</string>
+    <string name="font_roboto_medium">fonts/Roboto-Medium.ttf</string>
+    <string name="font_roboto_regular">fonts/Roboto-Regular.ttf</string>
+
+    <!-- noto -->
+    <string name="font_noto_cjk_light">fonts/GenShinGothic-P-Light.ttf</string>
+    <string name="font_noto_cjk_medium">fonts/GenShinGothic-P-Medium.ttf</string>
+    <string name="font_noto_cjk_regular">fonts/GenShinGothic-P-Regular.ttf</string>
+</resources>

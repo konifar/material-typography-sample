@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- space -->
+    <dimen name="spacing_small">8sp</dimen>
+    <dimen name="spacing">16sp</dimen>
+
+    <!-- Text -->
+    <dimen name="text_34sp">34sp</dimen>
+    <dimen name="text_24sp">24sp</dimen>
+    <dimen name="text_20sp">20sp</dimen>
+    <dimen name="text_16sp">16sp</dimen>
+    <dimen name="text_14sp">14sp</dimen>
+    <dimen name="text_12sp">12sp</dimen>
+
+    <!-- Component -->
+    <dimen name="tab_height">48dp</dimen>
+</resources>

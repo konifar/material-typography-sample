@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:elevation="4dp"
+        app:popupTheme="@style/Theme.AppCompat.Light" />
+
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tab_strip"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_height"
+        android:layout_below="@id/toolbar"
+        android:background="?attr/colorPrimary"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_14sp"
+        app:pstsDividerColor="@android:color/transparent"
+        app:pstsIndicatorColor="@color/accent500"
+        app:pstsIndicatorHeight="2dp"
+        app:pstsShouldExpand="true"
+        app:pstsTabBackground="@drawable/bg_feedback"
+        app:pstsUnderlineColor="@android:color/transparent" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tab_strip"
+        android:background="?android:windowContentOverlay" />
+
+</RelativeLayout>

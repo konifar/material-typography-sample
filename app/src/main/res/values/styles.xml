@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="TextSub">
+        <item name="android:textSize">@dimen/text_14sp</item>
+        <item name="android:textColor">@color/grey600</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+</resources>
