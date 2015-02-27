@@ -4,9 +4,8 @@
 .DS_Store
 *.log
 
-.gradle
-gradle/
 /build
+.gradle
 app/build/
 *.jks
 *.apk
